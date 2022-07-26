@@ -46,9 +46,9 @@ public class Producto
     private string _descripcion;
     public string Descripcion { get; set; }
     private int _costo;
-    public int Costo { get; set; }
+    public double Costo { get; set; }
     private int _precioVenta;
-    public int PrecioVenta { get; set; }
+    public double PrecioVenta { get; set; }
     private int _stock;
     public int Stock { get; set; }
     private int _idUsuario;
